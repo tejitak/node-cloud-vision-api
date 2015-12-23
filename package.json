@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/tejitak/node-cloud-vision-api/issues"
   },
-  "homepage": "https://github.com/tejitak/node-cloud-vision-api#readme"
+  "homepage": "https://github.com/tejitak/node-cloud-vision-api#readme",
+  "dependencies": {
+    "googleapis": "^2.1.7",
+    "request": "^2.67.0",
+    "underscore": "^1.8.3"
+  }
 }
