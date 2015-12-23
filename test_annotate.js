@@ -2,7 +2,7 @@
 const vision = require('./index')
 
 // init with auth
-vision.init({auth: 'AIzaSyDwWH4G8Nx2Z7WrdPvVRhqQqlriMv7pFWI'})
+vision.init({auth: 'YOUR_API_KEY'})
 
 // construct parameters
 const req = new vision.Request({
