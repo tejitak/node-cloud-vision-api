@@ -30,13 +30,14 @@ SAFE_SEARCH_DETECTION | Run models to compute image safe search properties
 API requests on node-cloud-vision-api is internally managed by [google-api-nodejs-client](https://github.com/google/google-api-nodejs-client/)
 
 You can setup auth data with the following samples
-1. Use Server Key
+
+* Use Server Key
 ```JavaScript
 const vision = require('node-cloud-vision-api')
 vision.init({auth: 'YOUR_API_KEY'})
 ```
 
-1. Use OAuth
+* Use OAuth
 ```JavaScript
 const vision = require('node-cloud-vision-api')
 const google = require('googleapis')
@@ -45,7 +46,7 @@ oauth2Client.setCredentials({refresh_token: 'YOUR_GOOGLE_OAUTH_REFRESH_TOKEN'})
 vision.init({auth: oauth2Client})
 ```
 
-1. For others, see references.
+* For others, see references.
 [google-api-nodejs-client](https://github.com/google/google-api-nodejs-client/)
 
 ## Sample
@@ -124,4 +125,4 @@ See more in [test_annotate_remote.js](https://github.com/tejitak/node-cloud-visi
 
 ## Supported Node Version
 
-Recommended node version is above v5.0.0 because this module is implemented with ES6.
+Recommended node version is above v4.0.0 because this module is implemented with ES6.
