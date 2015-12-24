@@ -52,6 +52,12 @@ vision.init({auth: oauth2Client})
 ## Sample
 
 ```JavaScript
+'use strict'
+const vision = require('node-cloud-vision-api')
+
+// init with auth
+vision.init({auth: 'YOUR_API_KEY'})
+
 // construct parameters
 const req = new vision.Request({
   image: new vision.Image('/Users/tejitak/temp/test1.jpg'),
