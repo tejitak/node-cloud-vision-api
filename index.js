@@ -12,7 +12,7 @@ module.exports = {
   _client: null,
 
   init(options) {
-    this._options = __.defaults(options, {version: 'v1alpha1'})
+    this._options = __.defaults(options, {version: 'v1'})
     const Endpoint = require('./lib/clients/' + options.version)
     var ep = new Endpoint(options)
     ep.google = this
