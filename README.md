@@ -132,3 +132,8 @@ See more in [test_annotate_remote.js](https://github.com/tejitak/node-cloud-visi
 ## Supported Node Version
 
 Recommended node version is above v4.0.0 because this module is implemented with ES6.
+
+
+## How to create a PR
+
+Fork the repository and create a PR to 'develop' branch.
